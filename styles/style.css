@@ -1,24 +1,192 @@
 body {
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  background: #f2f5fe url(images/Iconos/fondo_gris.gif) 0 0 repeat-x;
+  font: 70%/160% "vernada", sans-serif;
+  color: #192666;
 }
 
-.sender-column {
-  text-align: right;
+a {
+  color: #192666;
+}
+
+a:hover {
+  color: #4f6ad7
+}
+
+p {
+  margin: 1em 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1em 0;
+    padding: 0;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 260%;
+  font-family: "georgia", serif;
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 180%;
+  font-family: "georgia", serif;
+  font-weight: normal;
 }
 
-p,ul,ol,dl,address {
-  font-size: 1.1em;
+h3 {
+  font-size: 120%;
+  font-weight: bold;
 }
 
-p, li, dd, dt, address {
-  line-height: 1.5;
+ul,
+ol {
+    margin: 1em 0 1em 2em;
+    padding: 0;
+}
+
+#contenedor {
+  width: 770px;
+  margin: 50px auto 0 auto;
+}
+
+#cabecera {
+  width: 770px;
+  position: relative;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background: #233C9B url("images/Iconos/cabecera.jpg") no-repeat;
+  color: #FFF;
+}
+
+#contenido {
+  width: 760px;
+  margin: 0 5px;
+  background: #FFF;
+}
+
+#contenido #principal {
+  float: left;
+  width: 530px;
+  margin-top: 15px;
+  padding: 0 0 0 20px;
+  background: #FFF;
+}
+
+#contenido #secundario {
+  float: left;
+  width: 200px;
+  margin: 15px 0 0 0;
+  padding: 0;
+  background: #CEDBF9 url("fondo_columna.gif") no-repeat;
+}
+
+#pie {
+  clear: both;
+  height: 60px;
+  margin-bottom: 50px;
+  background: url("fondo_pie.jpg") no-repeat;
+  color: #6685CC;
+  position: relative;
+}
+
+#cabecera #logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  margin: 0;
+}
+
+#cabecera #logo a:hover {
+  color: #B5C4E3;
+  text-decoration: underline;
+}
+
+#menu {
+  background: #192666;
+  margin: 0 5px;
+  padding: 10px 0 0 0;
+}
+
+#menu ul {
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  margin: 0 5px 0 0;
+  padding: 0;
+  float: left;
+}
+#menu ul li a {
+  display: block;
+  position: relative;
+  padding: 5px;
+  border: 0;
+  background: #253575;
+  color: #B5C4E3;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu ul li a:hover {
+  background: #31479B;
+}
+
+#menu ul li.seleccionado a {
+  background: #FFF;
+  color: #FF9000;
+}
+
+
+#contenido .articulo {
+  clear: both;
+  margin: 0;
+  padding: 20px;
+  background: url("images/Iconos/fondo_articulo.jpg") no-repeat;
+}
+
+#contenido  h2 {
+  margin: 0 -20px;
+  padding: 10px;
+  background: #DEE5FD;
+  color: #192666;
+}
+
+#contenido  #secundario #Tecnicas  {
+  margin: 5px;
+  padding: 5px;
+  background: #DEE5FD;
+  color: #661919;
+}
+
+#contenido  #secundario #descripcion  {
+  margin: 5px;
+  padding: 5px;
+  background: #DEE5FD;
+  color: #000000;
+}
+
+#contenido  #secundario #descripcion h4 {
+  margin: 5px;
+  padding: 5px;
+  background: #DEE5FD;
+  color: #dd0b0b;
+}
+
+#pie p {
+  margin: 0;
+  padding: 0;
+  position: left;
+  top: 10px;
+  left: 40px;
 }
